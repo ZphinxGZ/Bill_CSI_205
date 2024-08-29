@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: 'Trirong', serif;
 }
 body{
     background: #c2c2c2;
@@ -53,6 +54,9 @@ body{
     color: rgb(230, 130, 0);
     font-weight: bold;
     padding-right: 10px;
+}
+.logo-last p{
+    font-size: 18px;
 }
 .logo-img img{
     width: 70px;
@@ -159,7 +163,7 @@ body{
 .ender{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 76.5%;
 }
 .payment1{
     display: flex;
@@ -175,7 +179,7 @@ body{
     font-size: 17px;
 }
 .orgbox{
-    width: 5%;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
