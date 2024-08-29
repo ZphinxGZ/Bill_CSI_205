@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background: #c2c2c2;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.name-header{
+    width: 100%;
+}
+.name-header h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.black-bar{
+    width: 100%;
+    height: 15px;
+    background-color: #000
+}
+
+.logo{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 10px;
+}
+.logo-name{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: left;
+    
+}
+.name11{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo-last{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: rgb(230, 130, 0);
+    font-weight: bold;
+    padding-right: 10px;
+}
+.logo-img img{
+    width: 70px;
+}
+
+
+.main{
+    /* border: 1px red solid; */
+    margin: 0px 20px;
+    background: #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main01{
+    display: flex;
+    border: 1px black solid;
+    padding-bottom: 5px;
+}
+.nameleft{
+    color: rgb(230, 130, 0);
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.nameright{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.main02, .main03{
+    display: flex;
+    /* border: 1px black solid; */
+}
+.subbill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bill1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.orangeF{
+    color: rgb(230, 130, 0);
+    font-size: 14px;
+}
+
+.databill {
+    margin-top: 5px;
+}
+
+
+/* expense */
+.expense{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.expense-main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+}
+.expensetext01{
+    color: #8a00c0;
+    font-size: 18px;
+}
+.expensetext02{
+    display: flex;
+    justify-content: space-between;
+}
+.desorg{
+    color: rgb(230, 130, 0);
+    font-size: 17px;
+}
+.desbla{
+    color: black;
+}
+.underl{
+    text-decoration: underline;
+}
+.expense-barcode{
+    margin-right: 50px;
+    padding-top: 15px;
+}
+.barcode img{
+    width: 120px;
+}
+.qrcode img{
+    width: 120px;
+}
+
+/* ender */
+.ender{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.payment1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 45px;
+}
+.underpay{
+    border-bottom: 2px black solid;
+}
+.orgb{
+    color: rgb(230, 130, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+.orgbox{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 156, 77);
+}
+.orgbox p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* footer */
+.footer{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.purple{
+    color: #8a00c0;
+    font-size: 17px;
+}
+.desfb{
+    color: black;
+}
+.smallfoot{
+    font-size: 13px;
+}
+.descfoot2{
+    background: #b1b1b1;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+table{
+    border: 1px rgb(0, 0, 0) solid;
+    width: 100%;
+}
+th{
+    color: rgb(230, 130, 0);
+    border-right: 1px rgb(0, 0, 0) solid;
+    
+}
+td{
+    align-items: center;
+    justify-content: center;
+}
+.bordr{
+    border-right: 1px rgb(0, 0, 0) solid;
+}
+.bordt{
+    border-top: 1px rgb(0, 0, 0) solid;
+}
+
+.credit{
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.parab{
+    font-weight: bold;
+}
+.parac{
+    margin-left: 80px;
+}
+.barcodefooter{
+    margin-top: 5px;
+}
+.barcodefooter img{
+    width: 100%;
+    height: 70px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.serelfooter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
